@@ -266,6 +266,7 @@
       stars = [];
       count.textContent = '0';
       enableActions();
+      detectStars();
     };
     img.onerror = () => alert('Could not load image');
     img.src = src;
